@@ -95,6 +95,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             tvNameProduct = itemView.findViewById(R.id.tvNameProduct);
             tvPrice = itemView.findViewById(R.id.tvPrice);
             tvSold = itemView.findViewById(R.id.tvSold);
+            
+            //Anh Hào đã ở đây
 
             RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) itemView.getLayoutParams();
             if (getAdapterPosition() % 2 != 0) {
