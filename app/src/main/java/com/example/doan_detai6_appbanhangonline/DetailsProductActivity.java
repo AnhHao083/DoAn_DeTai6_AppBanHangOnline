@@ -42,6 +42,9 @@ public class DetailsProductActivity extends AppCompatActivity {
         onBackPressed();
         return super.onSupportNavigateUp();
     }
+    
+    
+    //Anh hào cũng đã ở đây
 
     // ánh xạ view
     private void initUI() {
