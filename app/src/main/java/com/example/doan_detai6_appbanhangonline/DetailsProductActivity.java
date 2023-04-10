@@ -37,6 +37,7 @@ public class DetailsProductActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+    //Anh Hào đã ở đây
 
     public boolean onSupportNavigateUp() {
         onBackPressed();
